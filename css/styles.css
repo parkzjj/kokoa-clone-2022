@@ -18,8 +18,11 @@
 @import "screens/settings.css";
 @import "screens/chat.css";
 body {
+    width: 100vw;
+    height: 100vh;
     font-family: 'Roboto', sans-serif;
     color: #2e363e;
+    background-color: var(--yellow);
 }
 
 .main-screen {

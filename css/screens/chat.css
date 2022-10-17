@@ -1,5 +1,5 @@
 #chat-screen {
-    background-color: #abc1d1;
+    background-color: var(--yellow);
     height: 500vh;
 }
 
@@ -9,7 +9,7 @@
     position: fixed;
     width: 100%;
     box-sizing: border-box;
-    background-color: #abc1d1;
+    background-color: var(--yellow);
 }
 
 #chat-screen .status-bar {
@@ -94,7 +94,7 @@
 }
 
 .message-row--own .message__bubble {
-    background-color: var(--yellow);
+    background-color: white;
     border-top-right-radius: 0px;
     border-top-left-radius: 10px;
     margin-right: 0px;
@@ -156,7 +156,7 @@
 }
 
 .reply__column button {
-    background-color: var(--yellow);
+    background-color: white;
     border: 2px solid rgba(0, 0, 0, 0.3);
     width: 34px;
     height: 34px;
